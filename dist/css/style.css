@@ -18,19 +18,19 @@ body {
 }
 
 .logo {
-  width: 120px;
+  width: 10rem;
 }
 
 a:hover, a.featured:hover {
-  background-color: #060042;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #060042;
 }
 
 a {
   display: block;
   max-width: 400px;
   margin: 0 auto 15px auto;
-  padding: 15px 20px;
+  padding: 10px 20px;
   font-size: 0.85rem;
   color: #ffffff;
   border: 2px solid #ffffff;
@@ -39,8 +39,8 @@ a {
 }
 a.featured {
   position: relative;
-  background-color: #ffffff;
-  color: #060042;
+  background-color: #060042;
+  color: #ffffff;
   font-weight: bold;
 }
 a.featured:before {
@@ -54,10 +54,29 @@ a.featured:before {
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: normal;
   letter-spacing: 2px;
+}
+
+.link {
+  max-width: 400px;
+  margin: 0 auto;
+  /*a {
+      flex: 1;
+      padding: 5px 10px;
+      margin-right: 10px;
+      background-color: #060042;
+      border: 1rem;
+      text-transform: uppercase;
+
+     */
+}
+.link:hover {
+  text-decoration: underline;
+  color: aqua;
+  font-weight: bolder;
 }
 
 .channels {
@@ -70,13 +89,15 @@ h2 {
   padding: 5px 10px;
   margin-right: 10px;
   background-color: #060042;
-  border: none;
+  border: 1rem;
+  text-transform: uppercase;
 }
 .channels a:last-child {
   margin-right: 0px;
 }
 .channels a:hover {
   text-decoration: underline;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
