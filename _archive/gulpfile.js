@@ -4,6 +4,7 @@ var cssnano = require('gulp-cssnano');
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
+const browserSync = require('browser-sync');
 
 // Sass task: compiles the style.scss file into style.css
 gulp.task('sass', function(){
@@ -26,6 +27,16 @@ gulp.task('watch', function(){
     gulp.watch('app/scss/*.scss', gulp.series('sass'));
     gulp.watch('app/js/**/*.js', gulp.series('js'));    
 });
+
+//Browsersync Tasks
+function BrowsersyncServe(cb){
+    browsersync.init({
+        server: {
+            baseDir: '.'
+        }
+    });
+    cb();
+}
 
 // Default task
 gulp.task('default', gulp.series('sass', 'js', 'watch'));

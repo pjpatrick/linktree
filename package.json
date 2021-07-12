@@ -1,33 +1,23 @@
 {
-  "name": "frontend-boilerplate",
+  "name": "linktree",
   "version": "1.0.0",
-  "description": "Simple front-end boilerplate with Gulpfile.js",
-  "main": "gulpfile.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thecodercoder/frontend-boilerplate.git"
+  "description": "Learning LinkTree via BootStrap / Dart-Sass guide\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D-v5\u001b[F",
+  "main": "\u001b[B\u001b[B\u001b[B\u001b[B",
+  "scripts": {
+    "compile:sass": "sass --watch scss:dist/css"
   },
   "keywords": [
-    "gulp",
-    "boilerplate",
-    "html",
-    "css",
-    "javascript"
+    "Linktree",
+    "Html",
+    "Coder"
   ],
-  "author": "@thecodercoder",
+  "author": "PasQuality",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thecodercoder/frontend-boilerplate/issues"
-  },
-  "homepage": "https://github.com/thecodercoder/frontend-boilerplate#readme",
   "devDependencies": {
-    "gulp": "4.0.0",
-    "gulp-sass": "^4.1.0",
-    "node-sass": "^6.0.0"
+    "sass": "^1.35.2"
   },
   "dependencies": {
-    "gulp-concat": "^2.6.1",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-uglify": "^3.0.1"
+    "autoprefixer": "^10.3.0",
+    "postcss-cli": "^8.3.1"
   }
 }
